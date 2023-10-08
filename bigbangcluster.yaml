@@ -16,4 +16,4 @@ managedNodeGroups:
     instanceType: m5.2xlarge
     desiredCapacity: 4
     ssh:
-      allow: true
+      allow: false
