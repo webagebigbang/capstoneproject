@@ -10,7 +10,7 @@ addons:
   - name: aws-ebs-csi-driver
     version: v1.18.0-eksbuild.1
     attachPolicyARNs:
-      - arn:aws:iam:aws:policy/service-role/AmazonEBSCSIDriverPolicy
+      - arn:aws:iam::aws:policy/service-role/AmazonEBSCSIDriverPolicy
 managedNodeGroups:
   - name: ng-1
     instanceType: m5.2xlarge
